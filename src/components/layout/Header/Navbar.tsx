@@ -25,7 +25,7 @@ const Navbar = () => {
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                        className={`w-40 h-40 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}
+                        className={`md:w-40 md:h-40 w-20 h-20 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}
                         src={Logo}
                     />
 
