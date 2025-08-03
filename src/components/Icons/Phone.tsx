@@ -1,7 +1,7 @@
 import React from 'react'
 import type { IconProps } from '../../types/icon'
 
-const Phone: React.FC<IconProps> = ({ className, width = 2 }) => {
+const Phone: React.FC<IconProps> = ({ className }) => {
     return (
         <svg
             fill="#000000"

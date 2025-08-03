@@ -1,6 +1,6 @@
 import type { IconProps } from "../../types/icon"
 
-const Redux: React.FC<IconProps> = ({ className, width = 2 }) => {
+const Redux: React.FC<IconProps> = ({ className }) => {
     return (
         <svg
             width={24}
